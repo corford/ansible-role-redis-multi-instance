@@ -27,7 +27,7 @@
     shell: /bin/true
     group: "{{ redis_multi_group }}"
     home: "{{ redis_multi_data_path }}"
-    createhome: false
+    createhome: no
     state: present
   tags: redis_multi
 
