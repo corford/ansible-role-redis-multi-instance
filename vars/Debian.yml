@@ -1,0 +1,5 @@
+---
+__redis_multi_dependencies:
+  - build-essential
+  - gcc
+  - libc6-dev
