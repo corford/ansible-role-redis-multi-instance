@@ -9,7 +9,7 @@ join. All members can then be controlled with a single command:
 systemctl [start|stop|restart] redis.target
 ```
 
-Note: This role intentionally does not setup or configure any redis instances.
+Note: This role intentionally does not setup or configure individual redis instances.
 
 ## License
 
