@@ -5,8 +5,9 @@ redis_multi_url: "http://download.redis.io/releases/redis-{{ redis_multi_version
 redis_multi_workspace: "/usr/local/src"
 redis_multi_reinstall: no
 redis_multi_install_path: "/usr/bin"
-redis_multi_conf_path: "/etc/redis"
-redis_multi_data_path: "/var/lib/redis"
-redis_multi_pid_path: "/run/redis"
-redis_multi_user: "redis"
-redis_multi_group: "redis"
+redis_multi_install_binaries:
+  - redis-benchmark
+  - redis-check-aof
+  - redis-check-rdb
+  - redis-cli
+  - redis-server
