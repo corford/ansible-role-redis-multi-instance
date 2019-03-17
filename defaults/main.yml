@@ -1,6 +1,6 @@
 ---
-redis_multi_version: "4.0.2"
-redis_multi_checksum: "sha256:b1a0915dbc91b979d06df1977fe594c3fa9b189f1f3d38743a2948c9f7634813"
+redis_multi_version: "5.0.3"
+redis_multi_checksum: "sha256:e290b4ddf817b26254a74d5d564095b11f9cd20d8f165459efa53eb63cd93e02"
 redis_multi_url: "http://download.redis.io/releases/redis-{{ redis_multi_version }}.tar.gz"
 redis_multi_workspace: "/usr/local/src"
 redis_multi_reinstall: no
